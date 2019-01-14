@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hangman</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="script.js"></script>
+    </head>
+    <body class="w3-center">
+        <h1>Hangman</h1>
+        Difficulty:
+        <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        Category:
+        <select id="category">
+            <option value="countries">Countries</option>
+            <option value="vegetables">Vegetables</option>
+            <option value="occupations">Occupations</option>
+        </select>
+        <button onclick="startGame()" class="w3-button w3-round w3-teal">Start New Game!</button>
+        <p>Remaining Guesses: <span id="guesses">_</span> <span id="message"></span></p>
+        <img id="picture" src="img/hangman0.svg" height="250"/>
+        <div id="word" class="w3-jumbo"></div>
+        <div id="alphabet" class="w3-large"></div>
+    </body>
+</html>

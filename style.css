@@ -1,0 +1,30 @@
+body {
+    background-image: url("img/desert.svg");
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-variant: small-caps;
+    font-size: 60px;
+}
+
+#message {
+    font-weight: bold;
+}
+
+#word {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    text-shadow: 0 0 3px darkslategrey;
+    letter-spacing: 10px;
+}
+
+#alphabet {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+}
+
+.missingLetter {
+    color: red;
+}
